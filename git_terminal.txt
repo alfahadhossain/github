@@ -1,0 +1,24 @@
+sudo apt-get install git -y
+git --version
+git config --global user.name "alfahadhossain"
+git config --global user.email "alfahadhossain121@gmail.com"
+git config --list
+pwd
+ls -al
+
+
+__________________reporitory file creat______
+mkdir fileName
+cd FileName
+git clone https://github.com/alfahadhossain/git-install-comend.git
+ls
+cd fileName
+ls
+touch CREATfILE
+git status
+file add
+git status(show file add)
+git commit -m "first python program" (helloworld.python/file name)
+git push -u origin master
+
+given: user name and password
